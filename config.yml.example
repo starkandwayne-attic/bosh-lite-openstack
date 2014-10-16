@@ -1,0 +1,13 @@
+---
+openstack:
+  endpoint: http://192.168.1.100:5000/v2.0
+  username:admin
+  apikey: admin
+  server_name: bosh-lite
+  flavor: m1.xlarge
+  image: Ubuntu 14.04
+  networks:
+    - net1
+  nova_keypair_name: key1
+  private_key_path: ~/.ssh/id_rsa
+  ssh_username: ubuntu

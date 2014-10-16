@@ -1,0 +1,4 @@
+.vagrant
+.releases
+.stemcells
+config.yml
