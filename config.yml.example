@@ -1,13 +1,15 @@
 ---
 openstack:
-  endpoint: http://192.168.1.100:5000/v2.0
-  username:admin
-  apikey: admin
+  endpoint: http://192.168.139.3:5000/v2.0
+  username: admin
+  api_key: sekret
   server_name: bosh-lite
   flavor: m1.xlarge
-  image: Ubuntu 14.04
+  image: ubu-14.04
+  tenant_name: orchestrator_testbed
+  ip_pool: ""
   networks:
-    - net1
-  nova_keypair_name: key1
-  private_key_path: ~/.ssh/id_rsa
+    - orcnet1
+  nova_keypair_name: keyname
+  private_key_path: ~/.ssh/sekrets.pem
   ssh_username: ubuntu
