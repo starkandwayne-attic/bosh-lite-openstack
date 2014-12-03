@@ -6,10 +6,10 @@ openstack:
   server_name: bosh-lite
   flavor: m1.xlarge
   image: ubu-14.04
-  tenant_name: orchestrator_testbed
+  tenant_name: tennant_name
   ip_pool: ""
   networks:
-    - orcnet1
+    - net1
   nova_keypair_name: keyname
   private_key_path: ~/.ssh/sekrets.pem
   ssh_username: ubuntu
