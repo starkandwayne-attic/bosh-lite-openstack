@@ -3,11 +3,11 @@ name: bosh-lite
 
 releases:
 - name: bosh
-  version: 108
-  url: https://s3.amazonaws.com/bosh-jenkins-artifacts/release/bosh-2739.tgz
+  version: 124
+  url: https://s3.amazonaws.com/bosh-jenkins-artifacts/release/bosh-2787.tgz
 - name: bosh-warden-cpi
-  version: 13
-  url: https://s3.amazonaws.com/bosh-jenkins-artifacts/bosh-warden-cpi-release/bosh-warden-cpi-13.tgz
+  version: 15
+  url: https://s3.amazonaws.com/bosh-jenkins-artifacts/bosh-warden-cpi-release/bosh-warden-cpi-15.tgz
 
 networks:
 - name: default
